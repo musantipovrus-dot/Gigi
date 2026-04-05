@@ -1,16 +1,10 @@
 # requirements.txt
-# Полный и точный список зависимостей для OSINT BREAKER v2.0
-# Скопируй содержимое в файл requirements.txt и выполни:
-# pip install -r requirements.txt
+# Полный список зависимостей для Knight OSINT Dashboard (один файл main.py)
 
-fastapi>=0.115.0
-uvicorn[standard]>=0.30.0
-jinja2>=3.1.0
-httpx>=0.27.0
-beautifulsoup4>=4.12.0
-python-multipart>=0.0.9
-weasyprint>=62.0
-
-# Опциональные, но рекомендуемые для лучшей производительности и PDF
-pillow>=10.0.0
-pydantic>=2.0.0
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+jinja2==3.1.4
+httpx==0.27.2
+beautifulsoup4==4.12.3
+python-multipart==0.0.9
+reportlab==4.2.2
