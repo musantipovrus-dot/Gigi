@@ -1,12 +1,12 @@
 # requirements.txt
-# Полный и финальный список зависимостей для Knight OSINT v2
-# Один файл main.py — работает на Railway без ошибок
+# ФИНАЛЬНЫЙ СПИСОК ДЛЯ KNIGHT OSINT v2 (полностью рабочий на Railway)
 
 fastapi==0.115.8
 uvicorn[standard]==0.34.0
 httpx==0.28.1
 reportlab==4.3.1
+python-multipart==0.0.12
 
-# Опционально (если захочешь добавить позже):
-# beautifulsoup4==4.12.3
-# python-multipart==0.0.12
+# Комментарий для Railway:
+# Build Command: pip install -r requirements.txt
+# Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
